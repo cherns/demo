@@ -11,7 +11,8 @@
     "img": "acetals.png",
     "otherFilter": {},
     "Ring": {},
-    "Halo": {}
+    "Halo": {},
+    "id": 0
   },
   {
     "Concerns": "Irritation to skin, eyes, and respiratory tract",
@@ -26,7 +27,8 @@
     "img": "acidgroups.png",
     "otherFilter": {},
     "Ring": {},
-    "Halo": {}
+    "Halo": {},
+    "id": 1
   },
   {
     "Concerns": "Cancer, Neurotoxicity, Mutagenicity",
@@ -42,7 +44,8 @@
     "otherFilter": {},
     "Ring": {},
     "Halo": {},
-    "Linear": true
+    "Linear": true,
+    "id": 2
   },
   {
     "Concerns": "Dermal/Respiratory Sensitization (always concerns). WOE Concerns:: Cancer, Genotoxicity. Michael addition potential.",
@@ -58,7 +61,8 @@
     "otherFilter": {},
     "Ring": {},
     "Halo": {},
-    "Linear": true
+    "Linear": true,
+    "id": 3
   },
   {
     "Concerns": "Cancer, Irritation/corrosion from release HX (HCl, HBr, HI or HF)",
@@ -72,6 +76,405 @@
     "img": "acylbenzoyl.png",
     "otherFilter": {},
     "Ring": {},
-    "Halo": {}
-  }]
+    "Halo": {},
+    "id": 4
+  },
+  {
+    "Concerns": "Cancer",
+    "Otype": {
+      "Single": true,
+      "Double": true
+    },
+    "alert": "Aflatoxin Analogues",
+    "eleFilter": {
+      "O": true
+    },
+    "img": "aflatoxin.png",
+    "otherFilter": {},
+    "Ring": {
+      "O": true
+    },
+    "Halo": {},
+    "Aromatic": true,
+    "id": 5
+  },
+  {
+    "Concerns": "Cancer, Reactive, Critical protein/enzyme modification, mutagenicity\\n As cross-linking agent (2 or more): Dermal/Respiratory Sensitization, Mutagenicity",
+    "Otype": {
+      "Double": true
+    },
+    "alert": "Aldehydes",
+    "eleFilter": {
+      "O": true
+    },
+    "img": "aldehydes.png",
+    "otherFilter": {},
+    "Ring": {},
+    "Halo": {},
+    "id": 6
+  },
+  {
+    "Concerns": "Irritation to skin, eyes, and respiratory tract, potential lung toxicity.",
+    "Otype": {},
+    "alert": "Aliphatic Amines",
+    "eleFilter": {
+      "N": true
+    },
+    "img": "aliphaticamines.png",
+    "otherFilter": {},
+    "Ring": {},
+    "Halo": {},
+    "id": 7
+  },
+  {
+    "Concerns": "Cancer",
+    "Otype": {},
+    "alert": "Aliphatic Azo and Azoxy Analogues",
+    "eleFilter": {
+      "N": true
+    },
+    "img": "aliphaticazoazoxy.png",
+    "otherFilter": {},
+    "Ring": {},
+    "Halo": {},
+    "id": 8
+  },
+  {
+    "Concerns": "Can inhibit cytochrome oxidase, Neurotox",
+    "Otype": {},
+    "alert": "Aliphatic Nitriles",
+    "eleFilter": {
+      "N": true
+    },
+    "img": "aliphaticnitriles.png",
+    "otherFilter": {},
+    "Ring": {},
+    "Halo": {},
+    "id": 9
+  },
+  {
+    "Concerns": "Cancer",
+    "Otype": {
+      "Single": true,
+      "Double": true
+    },
+    "alert": "Alkanesulfonoxy Esters",
+    "eleFilter": {
+      "O": true,
+      "S": true
+    },
+    "img": "alkanesulfonoxyesters.png",
+    "otherFilter": {},
+    "Ring": {},
+    "Halo": {},
+    "Aromatic": true,
+    "id": 10
+  },
+  {
+    "Concerns": "Lung pathology, irritation to skin, lungs, respiratory tract",
+    "Otype": {
+      "Single": true
+    },
+    "alert": "Alkoxysilanes",
+    "eleFilter": {
+      "O": true,
+      "Other": true
+    },
+    "img": "alkoxysilanes.png",
+    "otherFilter": {
+      "Si": true
+    },
+    "Ring": {},
+    "Halo": {},
+    "id": 11
+  },
+  {
+    "Concerns": "Cancer, Genotoxicity, potential alkylation",
+    "Otype": {
+      "Single": true,
+      "Double": true
+    },
+    "alert": "Alkyl Sulfates and Alkyl Alkanesulfonates (esters only, not salts)",
+    "eleFilter": {
+      "O": true,
+      "S": true
+    },
+    "img": "alkylsulfatesalkylsulfonates.png",
+    "otherFilter": {},
+    "Ring": {},
+    "Halo": {},
+    "id": 12
+  },
+  {
+    "Concerns": "Developmental, Mutagenicity, Carcinogenicity, Respiratory and Dermal Sensitization",
+    "Otype": {},
+    "alert": "Alkylation",
+    "eleFilter": {},
+    "img": "alkylation.png",
+    "otherFilter": {},
+    "Ring": {},
+    "Halo": {},
+    "id": 13
+  },
+  {
+    "Concerns": "Cancer",
+    "Otype": {
+      "Single": true
+    },
+    "alert": "Alpha- and beta- Haloethers",
+    "eleFilter": {
+      "Halogen": true,
+      "O": true
+    },
+    "img": "haloethers.png",
+    "otherFilter": {},
+    "Ring": {},
+    "Halo": {},
+    "id": 14
+  },
+  {
+    "Concerns": "Cancer",
+    "Otype": {},
+    "alert": "Alpha Haloalkylamines",
+    "eleFilter": {
+      "Halogen": true,
+      "N": true
+    },
+    "img": "haloalkylamines.png",
+    "otherFilter": {},
+    "Ring": {},
+    "Halo": {},
+    "id": 15
+  },
+  {
+    "Concerns": "Cancer",
+    "Otype": {},
+    "alert": "Alpha-Halothioethers",
+    "eleFilter": {
+      "Halogen": true,
+      "S": true
+    },
+    "img": "halothioethers.png",
+    "otherFilter": {},
+    "Ring": {},
+    "Halo": {},
+    "id": 16
+  },
+  {
+    "Concerns": "Cancer, Pulmonary sensitization",
+    "Otype": {
+      "Single": true,
+      "Double": true
+    },
+    "alert": "Anhydrides",
+    "eleFilter": {
+      "O": true
+    },
+    "img": "anhydrides.png",
+    "otherFilter": {},
+    "Ring": {},
+    "Halo": {},
+    "id": 17
+  },
+  {
+    "Concerns": "Cancer, Mutagenicity, Sensitzation, Irritation, Developmental, Neurotoxicity, Systemic Toxicity",
+    "Otype": {},
+    "alert": "Anilines",
+    "eleFilter": {
+      "N": true
+    },
+    "img": "anilines.png",
+    "otherFilter": {},
+    "Ring": {
+      "N": true
+    },
+    "Halo": {},
+    "Aromatic": true,
+    "id": 18
+  },
+  {
+    "Concerns": "Irritation to skin, eyes, and respiratory tract.",
+    "Otype": {
+      "Single": true,
+      "Double": true
+    },
+    "alert": "Anionic Surfactants",
+    "eleFilter": {
+      "O": true
+    },
+    "img": "anionicsurfactants.png",
+    "otherFilter": {},
+    "Ring": {},
+    "Ion": true,
+    "Halo": {},
+    "Linear": true,
+    "id": 19
+  },
+  {
+    "Concerns": "Genotoxic",
+    "Otype": {
+      "Double": true
+    },
+    "alert": "Anthraquinone Dyes",
+    "eleFilter": {
+      "N": true,
+      "O": true
+    },
+    "img": "anthraquinone.png",
+    "otherFilter": {},
+    "Ring": {
+      "O": true,
+      "N": true
+    },
+    "Halo": {},
+    "Aromatic": true,
+    "id": 20
+  },
+  {
+    "Concerns": "Cancer",
+    "Otype": {},
+    "alert": "Aromatic Amines",
+    "eleFilter": {
+      "N": true
+    },
+    "img": "aromaticamines.png",
+    "otherFilter": {},
+    "Ring": {
+      "N": true
+    },
+    "Halo": {},
+    "Aromatic": true,
+    "id": 21
+  },
+  {
+    "Concerns": "Irritation to eyes, skin, and lungs",
+    "Otype": {},
+    "alert": "Aromatic Hydrocarbons",
+    "eleFilter": {},
+    "img": "aromatichydrocarbons.png",
+    "otherFilter": {},
+    "Ring": {
+      "CRing": true
+    },
+    "Halo": {},
+    "Aromatic": true,
+    "id": 22
+  },
+  {
+    "Concerns": "Cancer",
+    "Otype": {},
+    "alert": "Arylazo Analogues",
+    "eleFilter": {
+      "Halogen": true,
+      "N": true
+    },
+    "img": "arylazo.png",
+    "otherFilter": {},
+    "Ring": {
+      "N": true
+    },
+    "Halo": {},
+    "Aromatic": true,
+    "id": 23
+  },
+  {
+    "Concerns": "Cancer",
+    "Otype": {},
+    "alert": "Aryldiazonium Salts",
+    "eleFilter": {
+      "Halogen": true,
+      "N": true
+    },
+    "img": "aryldiazonium.png",
+    "otherFilter": {},
+    "Ring": {
+      "N": true
+    },
+    "Ion": true,
+    "Halo": {},
+    "Aromatic": true,
+    "id": 24
+  },
+  {
+    "Concerns": "Cancer",
+    "Otype": {},
+    "alert": "Aziridines (Ethylenediamines)",
+    "eleFilter": {
+      "N": true
+    },
+    "img": "aziridines.png",
+    "otherFilter": {},
+    "Ring": {
+      "N": true
+    },
+    "Halo": {},
+    "id": 25
+  },
+  {
+    "Concerns": "Testicular atrophy, Blood toxicity, Neurotoxicity",
+    "Otype": {},
+    "alert": "Boron Compounds",
+    "eleFilter": {
+      "Other": true
+    },
+    "img": "boroncompounds.png",
+    "otherFilter": {
+      "B": true
+    },
+    "Ring": {},
+    "Halo": {},
+    "id": 26
+  },
+  {
+    "Concerns": "Developmental",
+    "Otype": {
+      "Single": true,
+      "Double": true
+    },
+    "alert": "Branched Chain Fatty Acids, Branched carboxylic acids",
+    "eleFilter": {
+      "O": true
+    },
+    "img": "bcfa.png",
+    "otherFilter": {},
+    "Ring": {},
+    "Halo": {},
+    "Linear": true,
+    "id": 27
+  },
+  {
+    "Concerns": "Cancer, Neurotoxicity, alkylation",
+    "Otype": {
+      "Single": true,
+      "Double": true
+    },
+    "alert": "Carbamates",
+    "eleFilter": {
+      "N": true,
+      "O": true
+    },
+    "img": "carbamates.png",
+    "otherFilter": {},
+    "Ring": {},
+    "Halo": {},
+    "id": 28
+  },
+  {
+    "Concerns": "Cancer",
+    "Otype": {
+      "Double": true
+    },
+    "alert": "Carbamyl Halides",
+    "eleFilter": {
+      "Halogen": true,
+      "N": true,
+      "O": true
+    },
+    "img": "carbamylhalides.png",
+    "otherFilter": {},
+    "Ring": {},
+    "Halo": {},
+    "id": 29
+  }
+]
 }
